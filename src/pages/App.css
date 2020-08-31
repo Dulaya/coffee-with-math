@@ -1,0 +1,207 @@
+/*Mobile & Tablet*/
+@media only screen and (max-width: 899px) {
+    #topNavMenu {
+        display: none !important;
+    }
+
+    #sideNavMenu {
+        display: block;
+        max-width: 50vw;
+        text-align: center;
+    }
+
+    #sideNavMenu>* {
+        display: block;
+    }
+
+}
+
+/*Desktop*/
+@media only screen and (min-width: 900px) {
+    #topNavMenu {
+        width: 100vw;
+    }
+
+    #topNavHamburger,
+    #sideNavMenu {
+        display: none !important;
+    }
+
+}
+
+/*TopNav*/
+#topNav {
+    background-image: linear-gradient(111.5deg, rgba(20, 100, 196, 1) 0.4%, rgba(33, 152, 214, 1) 100.2%);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    
+}
+
+#link {
+    text-decoration: none !important;
+}
+
+#topNav>div>a {
+    color: white;
+    padding: 0 10px;
+    text-decoration: none !important;
+}
+
+#topNav>div>* {
+    margin: 5px;
+}
+
+#topNavHamburger {
+    background: none;
+    border: none;
+    border-radius: 100%;
+    color: white;
+}
+
+#sideNavMenu {
+    display: none;
+}
+
+/*Services*/
+#services {
+    min-height: 100vh;
+
+    /*Order Matters*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#services>div>h3 {
+    color: #2d4059;
+}
+
+
+.card {
+    display: inline-block;
+    margin: 10px 25px;
+    vertical-align: top;
+}
+
+.concept {
+    color: white;
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    background-image: radial-gradient(circle farthest-corner at -3.3% 48%, rgba(141, 146, 239, 1) 0%, rgba(99, 229, 254, 1) 90%);
+}
+
+.content {
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: grey;
+    border-radius: 0 0 5px 5px;
+    padding: 10px;
+}
+
+.conceptImage {
+    color: white;
+    min-height: 200px;
+    width: 200px;
+}
+
+/*Pricing*/
+#pricing {
+    color: purple;
+    border-radius: 5px 5px 0 0;
+    min-height: 100vh;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: linear-gradient(106.4deg, rgba(255, 104, 192, 1) 11.1%, rgba(104, 84, 249, 1) 81.3%);
+
+}
+
+#pricing>div>h3 {
+    color: white;
+}
+
+.priceTitle {
+    background: white;
+    border-radius: 5px 5px 0 0;
+    color: purple;
+    padding: 10px;
+}
+
+.contentPricing {
+    background: white;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: white;
+    border-radius: 0 0 5px 5px;
+    padding: 10px;
+}
+
+.contentPricing>div {
+    margin: 10px 0;
+    min-width: 200px;
+}
+
+.contentPricing>img {
+    border-radius: 100%;
+}
+
+/*About*/
+#about {
+    min-height: 100vh;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentAbout {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.contentAbout>div {
+    text-align: center;
+}
+
+.contentAbout>div>div>img,
+.contentAbout>div>p {
+    display: inline-block;
+    max-width: 50vw;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.contentAbout>div>div>img {
+    border-radius: 100%;
+}
+
+/*Contact*/
+#contact {
+    /*Order Matters*/
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    min-height: 50vh;
+    background-image: radial-gradient(circle farthest-corner at -4% -12.9%, rgba(74, 98, 110, 1) 0.3%, rgba(30, 33, 48, 1) 90.2%);
+}
+
+#contact>* {
+    color: white;
+}
